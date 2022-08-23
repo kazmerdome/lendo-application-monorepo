@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/kazmerdome/Downloads/lendo-backend-assignment-master 2/application-monorepo'
+migrate -path db/migration -database postgresql://application_service@localhost:5432/application_service?sslmode=disable --verbose up
+make: Leaving directory `/Users/kazmerdome/Downloads/lendo-backend-assignment-master 2/application-monorepo'
+ 

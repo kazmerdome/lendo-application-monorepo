@@ -1,0 +1,10 @@
+version: "1"
+project:
+    id: "application_monorepo"
+packages:
+  - name: "querier"
+    path: "db/sqlc"
+    engine: "postgresql"
+    schema: "./db/migration/"
+    queries: "./db/sqlc"
+    emit_interface: true
