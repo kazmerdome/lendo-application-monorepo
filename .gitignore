@@ -1,5 +1,6 @@
 /build/application-job/application-job
 /build/application-service/application-service
+/.vscode
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,macos,windows
